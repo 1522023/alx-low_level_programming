@@ -1,8 +1,10 @@
  #include <stdio.h>
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdlib.h>
+/**
+ *main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main (void)
 {
@@ -13,7 +15,7 @@ int n ;
 		{
 			printf("%d is positive \n",n);
 				} 
-	if ( n=0 )
+	else if ( n==0 )
 	{
 		 printf("%d is zero \n",n);
 } else 
